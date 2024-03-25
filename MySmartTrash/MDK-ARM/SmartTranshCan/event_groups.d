@@ -1,0 +1,15 @@
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+smarttranshcan\event_groups.o: E:\MDK\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+smarttranshcan\event_groups.o: E:\MDK\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+smarttranshcan\event_groups.o: E:\MDK\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+smarttranshcan\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+smarttranshcan\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

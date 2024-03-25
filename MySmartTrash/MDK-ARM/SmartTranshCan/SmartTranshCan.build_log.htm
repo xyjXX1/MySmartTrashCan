@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 12 txh, 12, LIC=8VRJ7-EIZ5K-HLQCL-0AHB5-N50IR-3ZTX7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  E:\MDK\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\txh\Desktop\project\MySmartTrash\MySmartTrash\MDK-ARM\SmartTranshCan.uvprojx
+Project File Date:  03/31/2024
+
+<h2>Output:</h2>
+Build target 'SmartTranshCan'
+compiling hcsr04.c...
+..\Interface\hcsr04.h(8): error:  #70: incomplete type is not allowed
+  void Hcsr
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h(66): error:  #65: expected a ";"
+  typedef enum
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h(168): warning:  #12-D: parsing restarts here after previous syntax error
+  } IRQn_Type;
+../Drivers/CMSIS/Include/core_cm4.h(1688): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_EnableIRQ(IRQn_Type IRQn)
+../Drivers/CMSIS/Include/core_cm4.h(1705): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetEnableIRQ(IRQn_Type IRQn)
+../Drivers/CMSIS/Include/core_cm4.h(1724): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_DisableIRQ(IRQn_Type IRQn)
+../Drivers/CMSIS/Include/core_cm4.h(1743): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPendingIRQ(IRQn_Type IRQn)
+../Drivers/CMSIS/Include/core_cm4.h(1762): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPendingIRQ(IRQn_Type IRQn)
+../Drivers/CMSIS/Include/core_cm4.h(1777): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
+../Drivers/CMSIS/Include/core_cm4.h(1794): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetActive(IRQn_Type IRQn)
+../Drivers/CMSIS/Include/core_cm4.h(1816): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
+../Drivers/CMSIS/Include/core_cm4.h(1838): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetPriority(IRQn_Type IRQn)
+../Drivers/CMSIS/Include/core_cm4.h(1913): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE void __NVIC_SetVector(IRQn_Type IRQn, uint32_t vector)
+../Drivers/CMSIS/Include/core_cm4.h(1928): error:  #20: identifier "IRQn_Type" is undefined
+  __STATIC_INLINE uint32_t __NVIC_GetVector(IRQn_Type IRQn)
+../Drivers/CMSIS/Include/core_cm4.h(2030): error:  #20: identifier "SysTick_IRQn" is undefined
+    NVIC_SetPriority (SysTick_IRQn, (1UL << __NVIC_PRIO_BITS) - 1UL); /* set Priority for Systick Interrupt */
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h(263): error:  #20: identifier "IRQn_Type" is undefined
+  void HAL_NVIC_SetPriority(IRQn_Type IRQn, uint32_t PreemptPriority, uint32_t SubPriority);
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h(264): error:  #20: identifier "IRQn_Type" is undefined
+  void HAL_NVIC_EnableIRQ(IRQn_Type IRQn);
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h(265): error:  #20: identifier "IRQn_Type" is undefined
+  void HAL_NVIC_DisableIRQ(IRQn_Type IRQn);
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h(277): error:  #20: identifier "IRQn_Type" is undefined
+  void HAL_NVIC_GetPriority(IRQn_Type IRQn, uint32_t PriorityGroup, uint32_t* pPreemptPriority, uint32_t* pSubPriority);
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h(278): error:  #20: identifier "IRQn_Type" is undefined
+  uint32_t HAL_NVIC_GetPendingIRQ(IRQn_Type IRQn);
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h(279): error:  #20: identifier "IRQn_Type" is undefined
+  void HAL_NVIC_SetPendingIRQ(IRQn_Type IRQn);
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h(280): error:  #20: identifier "IRQn_Type" is undefined
+  void HAL_NVIC_ClearPendingIRQ(IRQn_Type IRQn);
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h(281): error:  #20: identifier "IRQn_Type" is undefined
+  uint32_t HAL_NVIC_GetActive(IRQn_Type IRQn);
+..\Interface\delay.h(19): error:  #20: identifier "HAL_TIM_Base" is undefined
+        HAL_TIM_Base
+..\Interface\delay.h(20): error:  #65: expected a ";"
+  }
+..\Interface\hcsr04.h(61): warning:  #1295-D: Deprecated declaration Hcsr04Start - give arg types
+  void Hcsr04Start();
+..\Interface\hcsr04.h(82): warning:  #1295-D: Deprecated declaration Hcsr04Read - give arg types
+  float Hcsr04Read();
+..\Interface\hcsr04.c(62): error:  #20: identifier "TRIG_GPIO_Port" is undefined
+    HAL_GPIO_WritePin(TRIG_GPIO_Port, TRIG_Pin, GPIO_PIN_SET);
+..\Interface\hcsr04.c(62): error:  #20: identifier "TRIG_Pin" is undefined
+    HAL_GPIO_WritePin(TRIG_GPIO_Port, TRIG_Pin, GPIO_PIN_SET);
+..\Interface\hcsr04.c(63): warning:  #223-D: function "DelayUs" declared implicitly
+    DelayUs(10);  //  10us??
+..\Interface\hcsr04.c: 4 warnings, 26 errors
+"SmartTranshCan\SmartTranshCan.axf" - 26 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\txh\Desktop\project\MySmartTrash\MySmartTrash\MDK-ARM\RTE
+  E:\MDK\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  E:\MDK\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+Target not created.
+</pre>
+</body>
+</html>

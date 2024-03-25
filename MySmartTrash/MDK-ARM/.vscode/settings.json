@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "ringbuff.h": "c",
+        "delay.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

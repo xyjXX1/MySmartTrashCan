@@ -1,0 +1,14 @@
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+smarttranshcan\stream_buffer.o: E:\MDK\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+smarttranshcan\stream_buffer.o: E:\MDK\Keil\ARM\ARMCC\Bin\..\include\string.h
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+smarttranshcan\stream_buffer.o: E:\MDK\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+smarttranshcan\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+smarttranshcan\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h
